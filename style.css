@@ -1,0 +1,30 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+
+fieldset {
+  width: 400px;
+}
+#box-content {
+  display: flex;
+  align-items: center;
+  fustify-content: center;
+
+  gap: 20px;
+}
+#box1 {
+  display: flex;
+
+  align-items: flex-start;
+  flex-direction: column;
+}
+#box2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+button {
+  margin-top: 5px;
+}
